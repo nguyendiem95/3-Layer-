@@ -17,11 +17,11 @@ import java.sql.SQLException;
 public class ConnectDB {
   static String Driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
   static String URL = "jdbc:sqlserver://localhost:1433"
-      + ";instance=SQLEXPRESS;databaseName=Employee;integratedSecurity=true;";
+      + ";instance=SQLEXPRESS;databaseName=CMC;integratedSecurity=true;";
 
   /**
    * Method return connection database
-   * 
+   * @description: handle connection database
    * @throws ClassNotFoundException
    * @throws SQLException
    */
